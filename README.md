@@ -1,2 +1,2 @@
 # SFApi
-A large index of different moves and properties in street fighter 6
+AN API that can be used to index and retieve moves in a fighting game
