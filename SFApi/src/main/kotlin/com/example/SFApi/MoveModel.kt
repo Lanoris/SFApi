@@ -4,9 +4,8 @@ class MoveModel {
     // Not adding stun since we're going to adapt this for street fighter 6.
     data class Move(
         val name: String, val input: String, val damage: Int, val activeFrames: Int?, val recovery: Int, val onHit: Int,
-        val block: Int, val notes: String) {
-
-    }
+        val block: Int, val notes: String
+    )
 
     object Ryu {
         val hadouken = Move(
@@ -24,10 +23,6 @@ class MoveModel {
                     "Juggle Limit / Increase / Start: 0 / 4 / 3"
         )
     }
-:wq
-
-
-
 
 
 }
