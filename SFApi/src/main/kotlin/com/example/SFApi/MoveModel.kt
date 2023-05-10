@@ -11,7 +11,7 @@ class MoveModel {
     object Ryu {
         val hadouken = Move(
             name = "hadouken",
-            input = "qcf + lp",
+            input = "qcflp",
             damage = 70,
             activeFrames = null,
             recovery = 31,
@@ -24,6 +24,7 @@ class MoveModel {
                     "Juggle Limit / Increase / Start: 0 / 4 / 3"
         )
     }
+:wq
 
 
 
